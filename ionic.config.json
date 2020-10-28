@@ -1,5 +1,7 @@
 {
   "name": "DemoFcm",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
