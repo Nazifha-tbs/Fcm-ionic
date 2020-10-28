@@ -95,7 +95,8 @@ export class HomePage {
       },
       "content_available": true,
       "priority": "high",
-      to: 'dpuzTxs_DFs:APA91bFc2lshv6sDVvddUVe-LWe0VmHbMJJ2KIarNe6RpM-3kSlcyN6el12Vau6UOgzij4e9qUXhvrP1ppyO7Nd2X-mfMp78_82B0t3ZpNAN6i5xq4rEltVJzD_mJaLtR3u5TCNaGkW7'
+      // to: 'dpuzTxs_DFs:APA91bFc2lshv6sDVvddUVe-LWe0VmHbMJJ2KIarNe6RpM-3kSlcyN6el12Vau6UOgzij4e9qUXhvrP1ppyO7Nd2X-mfMp78_82B0t3ZpNAN6i5xq4rEltVJzD_mJaLtR3u5TCNaGkW7'
+      to: this.receiverToken
     };
     this.http
       .post(this.notificationUrl, body, {

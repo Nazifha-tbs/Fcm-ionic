@@ -6,13 +6,14 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <div id="container">
-    <ion-input placeholder="Please enter message" [(ngModel)]="message">
-
+<ion-content [fullscreen]="true" class="ion-padding ion-text-center">
+  <ion-input class="inputStyle ion-margin" placeholder="Please enter message" [(ngModel)]="message">
+    
+  </ion-input>
+    <ion-input class="inputStyle ion-margin" placeholder="Please enter receiver token" [(ngModel)]="receiverToken">
+    
     </ion-input>
-  </div>
-  <ion-button expand="full" (click)="sendMsg()">
-    Send message
-  </ion-button>
+        <ion-button expand="block" (click)="sendMsg()">
+          Send message
+        </ion-button>
 </ion-content>
